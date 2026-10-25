@@ -1,19 +1,6 @@
-<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="yy-ui-first-webgen">
-  <style>
-    .t { font-family: -apple-system, "Segoe UI", "Microsoft YaHei", sans-serif; }
-  </style>
-  <rect width="1200" height="300" fill="#0f172a"/>
-  <rect x="60" y="60" width="420" height="180" rx="12" fill="#1e293b"/>
-  <rect x="90" y="90" width="160" height="14" rx="7" fill="#38bdf8"/>
-  <rect x="90" y="120" width="340" height="10" rx="5" fill="#334155"/>
-  <rect x="90" y="140" width="300" height="10" rx="5" fill="#334155"/>
-  <rect x="90" y="170" width="110" height="30" rx="8" fill="#f97316"/>
-  <text x="520" y="130" class="t" font-size="44" font-weight="700" fill="#f1f5f9">yy-ui-first-webgen</text>
-  <text x="520" y="175" class="t" font-size="24" fill="#94a3b8">先定视觉，再写代码 —— UI 先行的高还原开发流程</text>
-  <text x="520" y="215" class="t" font-size="20" fill="#64748b">需求 → UI 提示词 → 效果图锁定 → 拆素材 → 高还原 → 对比验收</text>
-</svg>
-
 # yy-ui-first-webgen
+
+![](assets/hero.svg)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](SKILL.md)
@@ -70,6 +57,8 @@ git clone https://github.com/ivercurry99/yy-ui-first-webgen.git <你的技能目
 
 ```
 ├── SKILL.md                                  # 技能主流程（5 阶段）
+├── assets/
+│   └── hero.svg                              # README 首屏图
 └── references/
     ├── ui-prompt-template.md                 # UI 提示词模板 + 修正指令写法
     └── assets-and-degradation.md             # 素材拆分标准 + 降级方案
